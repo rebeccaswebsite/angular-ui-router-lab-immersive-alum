@@ -1,0 +1,27 @@
+-  request:
+      url: ^/rest/user/liam$
+      method: GET
+   response:
+    - status: 200
+      latency: 304
+      headers:
+         content-type: application/json
+      body: { "name": { "title": "mr", "first": "liam", "last": "lawson" }, "location": { "street": "1642 church lane", "city": "dundee", "state": "south yorkshire", "zip": "LN6Y 1ZG" }, "email": "liam.lawson@example.com", "username": "silverwolf439", "dob": 924314544, "phone": "015242 99250", "cell": "0713-889-058", "NINO": "BX 12 80 44 W", "picture": { "large": "https://randomuser.me/api/portraits/men/74.jpg", "medium": "https://randomuser.me/api/portraits/med/men/74.jpg", "thumbnail": "https://randomuser.me/api/portraits/thumb/men/74.jpg" } }
+-  request:
+      url: ^/rest/user/jayden$
+      method: GET
+   response:
+    - status: 200
+      latency: 304
+      headers:
+         content-type: application/json
+      body: { "name": { "title": "mr", "first": "jayden", "last": "mccoy" }, "location": { "street": "1914 grove road", "city": "portsmouth", "state": "west midlands", "zip": "HF75 7GD" }, "email": "jayden.mccoy@example.com", "username": "silverlion747", "dob": 1082289749, "phone": "015396 72686", "cell": "0773-115-508", "NINO": "JK 37 91 25 T", "picture": { "large": "https://randomuser.me/api/portraits/men/31.jpg", "medium": "https://randomuser.me/api/portraits/med/men/31.jpg", "thumbnail": "https://randomuser.me/api/portraits/thumb/men/31.jpg" } }
+-  request:
+      url: ^/rest/user/mary$
+      method: GET
+   response:
+    - status: 200
+      latency: 304
+      headers:
+         content-type: application/json
+      body: { "name": { "title": "mrs", "first": "mary", "last": "montgomery" }, "location": { "street": "3779 the green", "city": "kingston upon hull", "state": "gwynedd county", "zip": "W1B 4XE" }, "email": "mary.montgomery@example.com", "username": "orangelion444", "dob": 62132901, "phone": "0113568 906 3092", "cell": "0714-420-380", "NINO": "GZ 50 15 56 Y", "picture": { "large": "https://randomuser.me/api/portraits/women/27.jpg", "medium": "https://randomuser.me/api/portraits/med/women/27.jpg", "thumbnail": "https://randomuser.me/api/portraits/thumb/women/27.jpg" } }
