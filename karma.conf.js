@@ -4,11 +4,7 @@ module.exports = function (config) {
         frameworks: ['jasmine'],
         files: [
             'js/angular.js',
-<<<<<<< HEAD
             'js/angular-ui-router.js',
-=======
-            'tests/angular-ui-router.js',
->>>>>>> 5dcc68f... added karma conf
             'tests/angular-mocks.js',
             'js/app/**/*.js',
             'tests/*.spec.js'
