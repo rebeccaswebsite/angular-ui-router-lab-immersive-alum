@@ -5,7 +5,7 @@ module.exports = function (config) {
         files: [
             'js/angular.js',
             'js/angular-ui-router.js',
-            'tests/angular-mocks.js',
+       git     'tests/angular-mocks.js',
             'js/app/**/*.js',
             'tests/*.spec.js'
         ],
