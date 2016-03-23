@@ -22,6 +22,6 @@ Add `ui.router` to our app and then configure the route for `/user/:name`, using
 
 Use the resolve property to fetch data from the URLs above to receive data.
 
-Change over the URLs to use the `uiSref` directive instead - bonus: use `uiSrefActive` to add an active class to the hyperlink and color the link in a different color when active!
+Change over the URLs to use the `uiSref` directive instead. Make sure you put the view directive in the HTML!
 
-Make sure you put the view directive in the HTML!
+**Bonus**: use `uiSrefActive` to add an active class to the hyperlink and color the link in a different color when active!
