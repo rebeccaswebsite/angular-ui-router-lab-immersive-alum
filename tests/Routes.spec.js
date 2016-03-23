@@ -1,13 +1,27 @@
-describe('UserService', function () {
-	var $controller, firstUppercase;
+describe('Routes', function () {
+	var $state;
 
 	beforeEach(module('app'));
 
-	beforeEach(inject(function ($filter) {
-		firstUppercase = $filter('firstUppercase');
-	}));
+	describe('User', function () {
 
-	it('should capitalise the first letter', function () {
-		expect(firstUppercase('test')).toEqual('Test');
+		beforeEach(inject(function ($injector) {
+			$state = $injector.get('$state');
+		}));
+
+		var state;
+		it('should have the correct URL', function () {
+			state = $state.get('user');
+
+			expect(state.url).toEqual('/user/:id');
+		});
+
+		it('should use the right controller', function () {
+			expect(state.controller).toContain('UserController');
+		});
+
+		it('should have a resolve', function () {
+			expect(state.resolve).toBeDefined();
+		});
 	});
 });
