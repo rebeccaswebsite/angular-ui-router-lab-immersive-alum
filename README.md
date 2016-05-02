@@ -18,10 +18,12 @@ http://0.0.0.0:8882/rest/user/mary
 
 This will return data on the given user.
 
-Add `ui.router` to our app and then configure the route for `/user/:name`, using `views/user.html` for the view, and `UserController` for the user.
+Add `ui.router` to our app and then configure the route for `/user/:id`, using `views/user.html` for the view, and `UserController` for the user.
 
 Use the resolve property to fetch data from the URLs above to receive data.
 
 Change over the URLs to use the `uiSref` directive instead. Make sure you put the view directive in the HTML!
 
 **Bonus**: use `uiSrefActive` to add an active class to the hyperlink and color the link in a different color when active!
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/angular-ui-router-lab'>Angular Ui Router Lab</a> on Learn.co and start learning to code for free.</p>
